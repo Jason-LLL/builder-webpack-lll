@@ -6,6 +6,6 @@ describe('webpack-base unit test case', () => {
     //console.log(baseConfig);
     it('entry', () => {
         assert.ok(baseConfig.entry.index.indexOf('builder-webpack-lll/test/smoke/template/src/index/index.js') > -1);
-        assert.ok(baseConfig.entry.hiwebpack.indexOf('builder-webpack-lll/test/smoke/template/src/hiwebpack2/index.js') > -1);
+        assert.ok(baseConfig.entry.hiwebpack.indexOf('builder-webpack-lll/test/smoke/template/src/hiwebpack/index.js') > -1);
     })
 })
